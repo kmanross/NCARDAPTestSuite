@@ -1,0 +1,4 @@
+This is a collection of tools to test the NCAR RDA's experimental OPeNDAP server.  I am trying to provide a diverse set of tools for internal testing and eventually this may be an area that RDA users can get code ideas for their own uses.
+
+Please note that to run any of the code in this repo 'as is', you will need to be a registered user of the NCAR RDA <http://rda.ucar.edu>
+
