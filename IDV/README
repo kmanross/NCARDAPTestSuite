@@ -1,4 +1,25 @@
-This is a collection of [] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+This is a collection of [IDV] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+
+NOTE: all data is from the RDA dataset ds083.2 NCEP FNL archive.  See http://rda.ucar.edu/datasets/ds083.2/#description for details
+
+
+1) Ensure you have a valid account at http://rda.ucar.edu
+
+2) Make sure you have Unidata's Indegrated Data Viewer installed
+
+3) Save .xidv file to your computer
+
+4) Start your IDV
+
+5) File->Open and navigate to your recently saved .xidv file
+
+6) You will need to enter your username and password to the NCAR RDA
+
+7) Wait for data to load.
+
+8) Play with views, etc.  Try loading other data from Field Selector tab in IDV Dashboard
+
+
 
 Please see the README in the NCARDAPTestingSuite (parent directory to this one) for a general overview of tools
 
