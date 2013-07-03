@@ -1,4 +1,29 @@
-This is a collection of [] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+This is a collection of [LAS Ferret] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+
+See http://ferret.pmel.noaa.gov/Ferret/home for more information on LAS Ferret
+
+Requirements:
+
+Ferret installed on server.  For internal NCAR users, this is available on yellowstone as a module.  Will require X Forwarding.
+
+Steps for yellowstone users:
+
+0) copy ferret script to yellowstone
+
+1) Log into yellowstone with X forwarding. (I have also used -Y in place of -X)
+   ssh -X username@yellowstone.ucar.edu
+
+2) Load ferret module:
+   load module ferret
+
+3) Modify script to include YOUR username and password. Don't forget to replace the
+   @ in your username/email with %40 (but leave the second @ symbol prepended to the 
+   server):
+   manross@ucar.edu:mypassword -> manross%40ucar.edu:mypassword
+
+4) Run script:
+   ferret -script ferret_script.jnl
+
 
 Please see the README in the NCARDAPTestingSuite (parent directory to this one) for a general overview of tools
 
