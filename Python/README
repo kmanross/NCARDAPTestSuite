@@ -1,6 +1,6 @@
 This is a collection of python (2.7) tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
 
-Programs found here were developed using Anaconda Python distribution (http://continuum.io/)
+Programs found here were developed using Anaconda Python distribution (http://continuum.io/) but should work on yellowstone if the user loads the python module as well as the all-python-libs module.  Note: you will need to enable X Forwarding to display graphics.
 
 Each tool will implement python's argparse class, so running the program with a '-h' will provide usage information.
 
