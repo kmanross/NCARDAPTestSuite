@@ -1,4 +1,18 @@
-This is a collection of [] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+This is a collection of [NASA Panoply] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+
+For more information on Panoply, see http://www.giss.nasa.gov/tools/panoply/
+
+***NOTE***
+Versions 3.1.6 and 3.1.8 of Panoply require the user to enter their credentials numerous times (at least 5 and often closer to a dozen) to get the data.  I don't know why this is, and perhaps if I were more patient it might be fine.  Version 3.1.8 throws an authentication error when trying to plot a variable and then fails.  I recommend 3.1.6 if you can find it.  Even then, you will need to be patient.  Also, Panoply has no batch mode.
+
+Panoply is built on netcdf-Java, so it has the same core as the IDV and tools-UI, as well as ncBrowse.  I would suggest that you try this tool only if you are really married to Panoply.
+
+
+See 
+
+http://disc.sci.gsfc.nasa.gov/cookbook/How-to-View-Remote-Data-in-OPeNDAP-with-Panoply
+
+for tutorial on opening remote data.  Haven't got the catalog feature to work yet.
 
 Please see the README in the NCARDAPTestingSuite (parent directory to this one) for a general overview of tools
 
