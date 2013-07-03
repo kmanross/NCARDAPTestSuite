@@ -1,0 +1,39 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.84  
+ ! Linux 2.6.32-220.13.1.el6.x86_64 64-bit - 12/27/12
+ !  2-Jul-13 15:56     
+
+
+! Example script to demonstrate ferret CLIENT capabilities with experimental RDA 
+! OPeNDAP server.  Possibility in using ferret to provide simple server-side
+! algorithmic processing of user requests may follow.
+
+
+! for more info on ferret, see:
+! http://ferret.pmel.noaa.gov/Ferret/home
+
+
+! Keep plot on screen until user hits 'Enter' key
+set mode wait
+
+! Enter RDA username and passord but keep all else same in URL including : between
+! USERNAME and PASSWORD
+! ***NOTE*** Since RDA username is email address, please replace @ in username with
+! %40 in order for connection to be established.
+! Example: manross@ucar.edu would be entered in the URL as manross%40ucar.edu
+set data "https://USERNAME:PASSWORD@castle.ucar.edu:8443/thredds/dodsC/FNLCollection/best"
+
+
+! Show the data that ferret gets from OPeNDAP server. Useful for getting parameter
+! names such as 'Pressure_reduced_to_MSL_msl'
+show data
+
+
+! create a plot of filled MSLP for date "01-jun-2013".  Feel free to change date
+! using similar format and afer 14-aug-1999 and before TODAY-24 hours
+! Also try using oter parameters that were listed from the above command
+fill/t="01-jun-2013" Pressure_reduced_to_MSL_msl
+
+! Add continental outlines
+go land
+
