@@ -1,4 +1,4 @@
-This is a collection of [] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+This is a collection of [GrADS] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
 
 Please see the README in the NCARDAPTestingSuite (parent directory to this one) for a general overview of tools
 
