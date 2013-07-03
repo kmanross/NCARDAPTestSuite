@@ -1,5 +1,7 @@
 This is a collection of [GrADS] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
 
+For more information on GrADS, see http://www.iges.org/grads/
+
 Please see the README in the NCARDAPTestingSuite (parent directory to this one) for a general overview of tools
 
 Don't hesitate to report a bug or issue.
