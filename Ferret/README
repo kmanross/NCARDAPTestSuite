@@ -2,7 +2,7 @@ This is a collection of [LAS Ferret] tools to test the NCAR RDA experimental OPe
 
 See http://ferret.pmel.noaa.gov/Ferret/home for more information on LAS Ferret
 
-Requirements :
+Requirements:
 
 Ferret installed on server.  For internal NCAR users, this is available on yellowstone as a module.  Will require X Forwarding.
 
