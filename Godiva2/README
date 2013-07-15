@@ -1,4 +1,10 @@
-This is a collection of [] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+This is a collection of [WMS/WCS Godiva2 Viewer] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+
+For more information about Godiva2 Viewer, please see http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/GodivaTwoUserGuide
+
+Since Godiva2 is a web viewer and configured with the THREDDS Data Server, please navigate to any file at the RDA THREDDS Data server <http://castle.ucar.edu/thredds> (Note: you will need to enter your RDA credentials) and click on the Godiva2 Viewer link near the bottom of the page.  
+
+TODO: develop and commit a job sheet for sample steps for viewing and examining the data.
 
 Please see the README in the NCARDAPTestingSuite (parent directory to this one) for a general overview of tools
 
