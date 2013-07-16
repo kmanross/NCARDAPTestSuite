@@ -1,0 +1,20 @@
+This is a collection of [NCL] tools to test the NCAR RDA experimental OPeNDAP access run via THREDDS Data Server.
+
+See http://www.ncl.ucar.edu/ for more on NCL
+
+Scripts built and tested against NCL v6.2.0
+
+
+To run script (Be sure you have working/loaded NCL):
+
+ncl < MYSCRIPT.ncl
+
+
+
+Please see the README in the NCARDAPTestingSuite (parent directory to this one) for a general overview of tools
+
+Don't hesitate to report a bug or issue.
+
+-kevin.
+
+
