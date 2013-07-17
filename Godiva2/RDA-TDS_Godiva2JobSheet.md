@@ -67,5 +67,30 @@ You should have a window pop up that looks like a cross section of the line you 
 If you want to get crazy, try clicking multi-segment lines and remember to finish by double-clicking.  Now try to follow what you just sampled!  :-)
 
 
+### Getting started/familiar with the the Godiva2 Viewer: __Serving WMS Images__
+
+Many people find Web Mapping Services (WMS) http://en.wikipedia.org/wiki/Web_Map_Service , http://www.opengeospatial.org/standards/wms layers useful.  We can easily get a WMS layer for use in your favorite client by just clicking on the _test image_ link below the lower left corner of the map:
+
+<img src="http://github.com/kmanross/NCARDAPTestSuite/blob/master/Godiva2/RDA_TDS_v-component_500mb_9April2012_12z_testimage.png?raw=true" width="450" height="350"/>
+
+You will see the folowing image - but I added the URL overlay to show that the full WMS request URL is easily avialable.  You could then take this URL and add it to your maps.
+
+<img src="http://github.com/kmanross/NCARDAPTestSuite/blob/master/Godiva2/RDA_TDS_v-component_500mb_9April2012_12z_WMSimage.png?raw=true" width="450" height="350"/>
+
+So you start thinking of possible applications when you recall that Google Earth has WMS capabilities.  You would like to try this out - and yu are encouraged to do so - but there is a built in feature for that in Godiva2!
+
+<img src="http://github.com/kmanross/NCARDAPTestSuite/blob/master/Godiva2/RDA_TDS_v-component_500mb_9April2012_12z_GoogleEarthLink.png?raw=true" width="450" height="350"/>
+
+__NOTE - This assumes you have Google Earth installed on the computer you are browsing from!!__
+
+Once you click on the link, Google Earth will be launched and the image (remember that this is all derived from the raw data on the THREDDS Data Server!) will be properly placed in Google Earth along with a color bar:
+
+<img src="http://github.com/kmanross/NCARDAPTestSuite/blob/master/Godiva2/RDA_TDS_v-component_500mb_9April2012_12z_GoogleEarth.png?raw=true" width="400" height="350"/>
+
+
+
+
+Well, that's enough for now.  Feel free to explore more features via the Godiva2 Users Guide and don't be shy to share what you've found!
+
 
 
