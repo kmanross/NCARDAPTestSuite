@@ -1,6 +1,6 @@
 Hopefully what follows is a coherent procedure for playing around with (I mean "testing") the Godiva2 viewer configured with the NCAR RDA's experimental THREDDS http://www.unidata.ucar.edu/projects/THREDDS/ which is at:
 
-Send any questions/comments to manross@ucaredu
+Send any questions/comments to manross@ucar.edu
 
 http://castle.ucar.edu/thredds 
 (Note: requires a subscription which can be found at https://rda.ucar.edu/index.html?hash=data_user&action=register)
