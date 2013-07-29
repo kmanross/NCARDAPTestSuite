@@ -47,7 +47,7 @@ class ani:
         #self.args(args, kwargs)
         rgs = self.args(args)
 
-        baseurl = '@castle.ucar.edu:8443/thredds/dodsC/FNLCollection/best'
+        baseurl = '@castle.ucar.edu:8443/thredds/dodsC/ds083.2/best'
         URL = 'https://' + self.uname(rgs.username) + ':' + rgs.password +  baseurl
         try:
             self.data = NetCDFFile(URL)

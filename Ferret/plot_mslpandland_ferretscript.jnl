@@ -21,7 +21,7 @@ set mode wait
 ! ***NOTE*** Since RDA username is email address, please replace @ in username with
 ! %40 in order for connection to be established.
 ! Example: manross@ucar.edu would be entered in the URL as manross%40ucar.edu
-set data "https://USERNAME:PASSWORD@castle.ucar.edu:8443/thredds/dodsC/FNLCollection/best"
+set data "https://USERNAME:PASSWORD@castle.ucar.edu:8443/thredds/dodsC/ds083.2/best"
 
 
 ! Show the data that ferret gets from OPeNDAP server. Useful for getting parameter

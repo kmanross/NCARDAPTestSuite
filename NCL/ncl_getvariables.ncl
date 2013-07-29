@@ -3,7 +3,7 @@
 ; Also, don't forget to replace @ with %40 in USERNAME
 ; Eg. manross@ucar.edu should be manross%40ucar.edu
 
-  url      = "http://USERNAME:PASSWORD@castle.ucar.edu/thredds/dodsC/FNLCollection"
+  url      = "http://USERNAME:PASSWORD@castle.ucar.edu/thredds/dodsC/ds083.2"
   filename = url + "best"
  
   exists = isfilepresent(filename)

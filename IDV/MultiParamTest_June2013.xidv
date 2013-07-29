@@ -11,12 +11,12 @@
                     <property name="Sources">
                         <object class="java.util.ArrayList">
                             <method name="add">
-                                <string><![CDATA[dods://castle.ucar.edu/thredds/dodsC/FNLCollection/best]]></string>
+                                <string><![CDATA[dods://castle.ucar.edu/thredds/dodsC/ds083.2/best]]></string>
                             </method>
                         </object>
                     </property>
                     <property name="Name">
-                        <string><![CDATA[dods://castle.ucar.edu/thredds/dodsC/FNLCollection/best]]></string>
+                        <string><![CDATA[dods://castle.ucar.edu/thredds/dodsC/ds083.2/best]]></string>
                     </property>
                     <property name="Descriptor">
                         <object class="ucar.unidata.data.DataSourceDescriptor">
